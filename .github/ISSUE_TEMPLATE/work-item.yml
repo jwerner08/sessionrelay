@@ -1,0 +1,38 @@
+name: Work item
+description: A scoped piece of work, small enough for one PR
+body:
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: The problem this solves or what it unblocks. Link the decision it implements, if any.
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What
+      description: The work to do, as a checklist.
+      value: |
+        - [ ]
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Definition of Done
+      description: Observable outcomes that prove it works. Include at least one check that would fail if the work were wrong.
+      value: |
+        - [ ]
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Related resources
+      description: Docs sections, decisions, blocking issues, external references.
+      value: |
+        - Depends on:
+        - Docs:
+    validations:
+      required: false
