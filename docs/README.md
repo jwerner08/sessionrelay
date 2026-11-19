@@ -14,6 +14,7 @@ SessionRelay is multi-tenant scheduling and booking software for recording studi
 | [data-model.md](data-model.md) | Postgres schema, constraints, row-level security |
 | [architecture.md](architecture.md) | Stack, infrastructure, jobs, environments, CI/CD, security, testing, monitoring |
 | [decisions.md](decisions.md) | Decision log: what was decided, why, and what was rejected |
+| [research/studio-interview-guide.md](research/studio-interview-guide.md) | Questions for interviewing a studio owner before building for them |
 
 ## Open items
 
